@@ -1,0 +1,56 @@
+/********************General*************************/
+body{
+	font-family: corbel,arial,sans-serif;
+	margin: 0;
+}
+
+a{
+	color: #cc3300;
+	text-decoration: #cc3300;
+}
+/******** Header - titolo -sottotitolo - menu di navigazione **********/
+#header{
+	background-color: #008000;
+}
+/* TITOLO */
+h1{
+	font-size: 36px;
+	margin: 0;
+	text-align: center;
+	padding: 15px 0 0 0;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+/* SOTTOTITOLO */
+h2{
+	font-size: 28px;
+	margin: 0;
+	text-align: center;
+	color: #ffffff;
+}
+/* MENU DI NAVIGAZIONE */
+#nav{
+	background-color: #599a68;
+	text-align: center;
+	list-style-type: none;
+	}
+#nav li{
+display: inline-block;
+padding: 6px 8px 6px 8px;
+}
+#nav li a{
+color: #ffffff;
+}
+/* cambio colore sfondo su lista quando si passa con il mouse */
+#nav li:hover{
+background-color: #6ab47b;
+}
+/******************** Content - descrizione pagina *************************/
+#content{
+	width: 600px;
+	margin: 30px auto;
+}
+/* aggiungere una linea sotto h4, cioè dare un bordo di 3 px */
+#content h4{
+	border-bottom: #599a68 solid 3px;
+}
